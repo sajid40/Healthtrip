@@ -15,7 +15,7 @@ const Search = () => {
                 <div className="relative  border-b shadow-lg  mt-5 rounded-xl ">
                 <input className="relative rounded-xl  p-3 w-full outline-none " type="search" placeholder="Search disease, surgeons or hospital" />
 
-                <button className="absolute right-1 top-1/4 text-3xl text-blue-500 "><FontAwesomeIcon icon={faMagnifyingGlass}/></button>
+                <button className="absolute right-1 top-2 text-3xl text-blue-500 "><FontAwesomeIcon icon={faMagnifyingGlass}/></button>
                 </div>
 
                 <div className="flex justify-between items-center mt-5">

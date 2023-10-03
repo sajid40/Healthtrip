@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../Images/Logo.png';
 import './Header.css';
 import Search from '../Search/Search';
+import Call from '../Call/Call';
 
 const Header = () => {
     return (
@@ -27,6 +28,7 @@ const Header = () => {
             </div>
         </div>
         <Search/>
+        <Call/>
         </div>
     );
 };
