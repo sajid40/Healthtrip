@@ -3,6 +3,7 @@ import logo from '../../Images/Logo.png';
 import './Header.css';
 import Search from '../Search/Search';
 import Call from '../Call/Call';
+import Treatmenttypes from '../Treatmenttypes/Treatmenttypes';
 
 const Header = () => {
     return (
@@ -29,6 +30,7 @@ const Header = () => {
         </div>
         <Search/>
         <Call/>
+        <Treatmenttypes/>
         </div>
     );
 };
