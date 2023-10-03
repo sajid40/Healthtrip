@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from '../../Images/Logo.png';
 import './Header.css';
+import Search from '../Search/Search';
 
 const Header = () => {
     return (
-        <div className="flex items-center justify-around w-4/5 mx-auto">
+        <div>
+            <div className="flex items-center justify-around w-4/5 mx-auto">
             <div  >
                 <img className="w-3/4 mr-5" src={logo} alt="" />
             </div>
@@ -18,11 +20,13 @@ const Header = () => {
              
             <a href="">Language</a>
              <span>|</span>
-             <a href="">Login</a>
+             <a className="text-blue-500" href="">Login</a>
              
 
-             <a href="">Get Medical Advice</a>
+             <a className="p-2 bg-blue-500 rounded-2xl text-white" href="">Get Medical Advice</a>
             </div>
+        </div>
+        <Search/>
         </div>
     );
 };
