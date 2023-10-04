@@ -4,6 +4,8 @@ import './Header.css';
 import Search from '../Search/Search';
 import Call from '../Call/Call';
 import Treatmenttypes from '../Treatmenttypes/Treatmenttypes';
+import Explore from '../Explore/Explore';
+import Popup from 'reactjs-popup';
 
 const Header = () => {
     return (
@@ -23,14 +25,21 @@ const Header = () => {
             <a href="">Language</a>
              <span>|</span>
              <a className="text-blue-500" href="">Login</a>
+
+             <Popup trigger={<button className="text-blue-600">Get Medical Advice</button>}>
+                <div className="text-blue-600 ">
+                    <h2>Get Medical Advice</h2>
+                </div>
+             </Popup>
              
 
-             <a className="p-2 bg-blue-500 rounded-2xl text-white" href="">Get Medical Advice</a>
+             
             </div>
         </div>
         <Search/>
         <Call/>
         <Treatmenttypes/>
+        <Explore/>
         </div>
     );
 };
