@@ -2,15 +2,17 @@
 
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
+
+import Home from './components/Home/Home';
 import Medical from './components/Medical/Medical';
-import Asthetic from './components/Asthetic/Asthetic';
 import Wellness from './components/Wellness/Wellness';
+import Asthetic from './components/Asthetic/Asthetic';
 
 function App() {
   return (
     <div >
-        <Header/>
-        <BrowserRouter>
+        <Home/>
+        
 
         <Routes>
 
@@ -20,7 +22,7 @@ function App() {
           
         </Routes>
         
-        </BrowserRouter>
+        
     </div>
   );
 }
