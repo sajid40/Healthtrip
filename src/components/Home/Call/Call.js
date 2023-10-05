@@ -1,6 +1,6 @@
 import { faPhone, faVideo } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import doctors from '../../Images/doctors.jpg'
+import doctors from '../../../Images/doctors.jpg'
 import React from 'react';
 
 const Call = () => {

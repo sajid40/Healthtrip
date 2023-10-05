@@ -1,24 +1,24 @@
 
 
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
-import Header from './components/Header/Header';
 
 import Home from './components/Home/Home';
-import Medical from './components/Medical/Medical';
-import Wellness from './components/Wellness/Wellness';
-import Asthetic from './components/Asthetic/Asthetic';
-
+import Onlinecon from './components/OnlineCon/Onlinecon';
+import Treatments from './components/Treatments/Treatments';
+import Testimonisla from './components/Testimonials/Testimonisla';
+import Blogs from './components/Blogs/Blogs';
 function App() {
   return (
     <div >
-        <Home/>
         
 
         <Routes>
 
-          <Route path="/medical" element={<Medical/>}/>
-          <Route path="/asthetic" element={<Asthetic/>}/>
-          <Route path="/wellness" element={<Wellness/>}/>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/onlineconsultaion" element={<Onlinecon/>}/>
+          <Route path="/treatments" element={<Treatments/>}/>
+          <Route path="/testimonials" element={<Testimonisla/>}/>
+          <Route path="/blogs" element={<Blogs/>}/>
           
         </Routes>
         

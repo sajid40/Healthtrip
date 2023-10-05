@@ -1,11 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
-import oparation from '../../Images/oparation.jpg';
+import oparation from '../../../Images/oparation.jpg';
 
 const Search = () => {
     return (
-        <div className="flex justify-between w-5/6 p-5 bg-blue-100 mx-auto rounded-3xl">
+        <div className="flex justify-between w-5/6 p-5 bg-blue-100 mx-auto rounded-3xl mt-10">
             <div >
                 <h1 className="text-5xl "><b >World's Largest</b> Health <br />Travel Platform</h1>
 

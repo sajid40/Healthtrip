@@ -1,13 +1,13 @@
-import { faArrowAltCircleRight, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import {  faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
-import hand from '../../Images/hand.jpg';
-import leaf from '../../Images/leaf.jpg';
+import hand from '../../../Images/hand.jpg';
+import leaf from '../../../Images/leaf.jpg';
 
 const Treatmenttypes = () => {
     return (
-        <div className="flex justify-between w-5/6 mx-auto mt-5">
+        <div className="flex justify-between w-5/6 mx-auto mt-10">
             <div className="p-5 mr-3 bg-pink-100 tracking-wide flex justify-between  rounded-3xl items-center mx-auto ">
                 <div className=" w-full">
 

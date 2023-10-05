@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../Header/Header';
-import Search from '../Search/Search';
-import Call from '../Call/Call';
-import Treatmenttypes from '../Treatmenttypes/Treatmenttypes';
-import Explore from '../Explore/Explore';
+import Call from './Call/Call';
+import Header from './Header/Header';
+import Search from './Search/Search';
+import Treatmenttypes from './Treatmenttypes/Treatmenttypes';
+import Explore from './Explore/Explore';
 
 const Home = () => {
     return (
